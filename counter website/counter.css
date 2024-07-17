@@ -1,0 +1,73 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center;
+    font-family: cursive,sans-serif;
+    background:linear-gradient(120deg,#2213a5,#870385);
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    border-radius: 20px;
+    background: linear-gradient(180deg,#d60bc5,#0f1cd5);
+    box-shadow: 6px 4px 4px rgba(0, 0, 0,0.8);
+    padding: 3rem; 
+}
+#counter-heading{
+    font-size: 2rem;
+    color: #000000;
+    margin-bottom: 1rem;
+    margin-top: -30px;
+    background-clip: text;
+}
+.card{
+    background: linear-gradient(180deg,#56565a,#080808);
+    border-radius: 100px;
+    box-shadow: 6px 4px 4px rgba(0, 0, 0,0.8);
+    height: 100px;
+    width: 100px;
+    display: inline-flex;
+}
+.countvalue{
+    color: rgb(255, 255, 255);
+    padding: 12px;
+    padding-left: 40px;
+}
+.btn-group {
+    display:flex ;
+    justify-content: space-between; 
+    margin-top: 1rem;
+    margin-bottom:-20px;
+    
+}
+.decrease-button {
+    font-family: cursive;
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0,0.5);
+}
+.increase-button {
+    font-family: cursive;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 4px 4px 4px rgba(0, 0, 0,0.5);
+    color: #ffffff;
+    border-radius: 12px;
+}
+.decrease-button:hover {
+background-color: white;
+color: #000000;
+}
+.increase-button:hover {
+    background-color: white;
+    color: #000000;
+}
+.positive {
+    background: linear-gradient(180deg,#78ff7c,#044609);
+}
+.negative {
+    background: linear-gradient(180deg,#f85d5d,#620202);
+}
